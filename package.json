@@ -1,0 +1,55 @@
+{
+  "name": "jscodeshift-demo",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Demonstrate the use of jscodeshift",
+  "bin": {
+    "jscodeshift-demo": "./index.js"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "jscodeshift",
+    "transform"
+  ],
+  "author": "Marcus R. Brown <me@igetgam.es>",
+  "license": "MIT",
+  "dependencies": {
+    "jscodeshift": "0.6.4"
+  },
+  "devDependencies": {
+    "eslint": "^6.4.0",
+    "eslint-config-prettier": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "prettier": "^1.18.2"
+  },
+  "eslintConfig": {
+    "root": true,
+    "env": {
+      "node": true,
+      "es6": true
+    },
+    "parserOptions": {
+      "ecmaVersion": 8,
+      "sourceType": "module"
+    },
+    "plugins": [
+      "prettier"
+    ],
+    "extends": "prettier"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "singleQuote": true,
+    "overrides": [
+      {
+        "files": "**/*.md",
+        "options": {
+          "parser": "markdown",
+          "proseWrap": "always"
+        }
+      }
+    ]
+  }
+}
