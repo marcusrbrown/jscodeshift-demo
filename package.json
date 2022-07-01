@@ -16,7 +16,7 @@
   "author": "Marcus R. Brown <me@igetgam.es>",
   "license": "MIT",
   "dependencies": {
-    "jscodeshift": "0.6.4"
+    "jscodeshift": "0.13.1"
   },
   "devDependencies": {
     "eslint": "^6.4.0",
