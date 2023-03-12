@@ -11,14 +11,7 @@ module.exports = foo;
 const transform = (j, source) =>
   j(source)
     .find(j.Identifier)
-    .replaceWith(p =>
-      j.identifier(
-        p.node.name
-          .split('')
-          .reverse()
-          .join('')
-      )
-    )
+    .replaceWith((p) => j.identifier(p.node.name.split('').reverse().join('')))
     .toSource();
 
 console.log(`Original source =\n${source}\n`);
