@@ -11,5 +11,5 @@
   "files.insertFinalNewline": true,
   "files.trimTrailingWhitespace": true,
 
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always"
 }
