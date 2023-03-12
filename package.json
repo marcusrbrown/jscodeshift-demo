@@ -2,6 +2,7 @@
   "name": "jscodeshift-demo",
   "version": "0.1.0",
   "private": true,
+  "repository": "marcusrbrown/jscodeshift-demo",
   "description": "Demonstrate the use of jscodeshift",
   "bin": {
     "jscodeshift-demo": "./index.js"
@@ -13,7 +14,7 @@
     "jscodeshift",
     "transform"
   ],
-  "author": "Marcus R. Brown <me@igetgam.es>",
+  "author": "Marcus R. Brown <contact@marcusrbrown.com>",
   "license": "MIT",
   "dependencies": {
     "jscodeshift": "0.14.0"
@@ -21,7 +22,7 @@
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-prettier": "6.15.0",
-    "eslint-plugin-prettier": "3.4.1",
+    "prettier-plugin-package": "*",
     "prettier": "2.8.4"
   },
   "eslintConfig": {
@@ -34,12 +35,10 @@
       "ecmaVersion": 8,
       "sourceType": "module"
     },
-    "plugins": [
-      "prettier"
-    ],
     "extends": "prettier"
   },
   "prettier": {
+    "bracketSpacing": true,
     "printWidth": 80,
     "singleQuote": true,
     "overrides": [
