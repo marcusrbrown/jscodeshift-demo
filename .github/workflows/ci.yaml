@@ -29,10 +29,10 @@ jobs:
         run: npm ci --ignore-scripts
 
       - name: Lint
-        run: npx eslint .
+        run: npm run lint
 
       - name: Check formatting
-        run: npx prettier --check .
+        run: npm run check-format
 
   demo:
     name: Demo
