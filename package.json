@@ -23,8 +23,8 @@
     "jscodeshift": "0.15.0"
   },
   "devDependencies": {
-    "eslint": "8.45.0",
-    "eslint-config-prettier": "8.8.0",
+    "eslint": "8.46.0",
+    "eslint-config-prettier": "8.9.0",
     "prettier": "3.0.0"
   },
   "eslintConfig": {
