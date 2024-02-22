@@ -20,7 +20,7 @@
     "transform"
   ],
   "dependencies": {
-    "jscodeshift": "0.15.1"
+    "jscodeshift": "0.15.2"
   },
   "devDependencies": {
     "eslint": "8.56.0",
